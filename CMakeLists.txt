@@ -22,7 +22,7 @@ endif()
 # Include Boost headers globally
 include_directories(${Boost_INCLUDE_DIRS})
 
-add_executable(ss-hw10 main.cpp ex1/ex1.cpp ex1/ex1.h)
+add_executable(ss-hw10 main.cpp ex1/ex1.h ex1/Server.h)
 
 # Link Boost libraries
 target_link_libraries(ss-hw10 PRIVATE ${Boost_LIBRARIES})
