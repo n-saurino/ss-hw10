@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <thread>
 #include <boost/asio.hpp>
+
 class Printer
 {
 private:
